@@ -7,7 +7,7 @@ def get_exif(filename):
     image.verify()
     return image.getexif()
 
-
+#extract the exif data
 exif = get_exif('tablerock.jpeg') # included image
 
 if exif:
