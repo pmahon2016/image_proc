@@ -10,6 +10,7 @@ def get_exif(filename):
 #extract the exif data
 exif = get_exif('tablerock.jpeg') # included image
 
+# Loop through tags for print out
 if exif:
     for k, v in exif.items():
         print(str([TAGS.get(k)]) + "\t" + str(v))
