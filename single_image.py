@@ -1,7 +1,7 @@
 from PIL import Image
 from PIL.ExifTags import TAGS
 
-
+# open files
 def get_exif(filename):
     image = Image.open(filename)
     image.verify()
