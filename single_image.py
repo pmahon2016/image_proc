@@ -8,7 +8,7 @@ def get_exif(filename):
     image.verify()
     return image.getexif()
 
-#extract the exif data
+# extract the exif data from image file
 exif = get_exif('tablerock.jpeg') # included image
 
 # Loop through tags for print out
