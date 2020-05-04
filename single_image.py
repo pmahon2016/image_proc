@@ -8,7 +8,7 @@ def get_exif(filename):
     return image.getexif()
 
 
-exif = get_exif('tablerock.jpeg')
+exif = get_exif('tablerock.jpeg') # included image
 
 if exif:
     for k, v in exif.items():
