@@ -1,6 +1,7 @@
 from PIL import Image
 from PIL.ExifTags import TAGS
 
+#this is a test for our live video on fB
 # open test
 def get_exif(filename):
     image = Image.open(filename)
