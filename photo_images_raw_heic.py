@@ -49,7 +49,7 @@ def print_results(make, model, date_gen, image_name):
     print("{:20.20} \t {:<20} \t {:10.10} \t {}".format(str(make), str(model), str(date_gen), image_name))
 
 
-for path in Path('/Users/paulmahon/Desktop/TestPhotos/').rglob('*'):  # the path will be different for a PC
+for path in Path('YOUR PATH HERE').rglob('*'):  # the path will be different for a PC
     # uncomment the below if you simply want work specifically with image files
     # if re.search(r'\.jpg$|\.png$|\.bmp$|\.heic$|\.cr2$', str(path), re.IGNORECASE):
     if path.is_file():  # this simply validates that it's a file
